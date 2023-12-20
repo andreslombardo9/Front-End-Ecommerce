@@ -1,0 +1,33 @@
+.create-order-button{
+    background-color: #000000;  /* Color de fondo */
+    color: #ff7b25;  /* Color del texto */
+    font-size: 1.2rem;  /* Tamaño del texto */
+    padding: 10px 20px;  /* Espaciado interno (arriba/abajo, izquierda/derecha) */
+    border: none;  /* Sin borde */
+    border-radius: 5px;  /* Borde redondeado */
+    cursor: pointer;  /* Cursor apuntador al pasar el ratón */
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.create-order-button:hover{ 
+    background-color: #424242;
+    color: #fc6500;  
+}
+/* En tu archivo CSS (ShoppingCartPage.css o donde manejes los estilos) */
+
+.clear-cart-button {
+    background-color: #e74c3c;  /* Color de fondo */
+    color: #fff;  /* Color del texto */
+    font-size: 1rem;  /* Tamaño del texto */
+    padding: 10px 20px;  /* Espaciado interno (arriba/abajo, izquierda/derecha) */
+    border: none;  /* Sin borde */
+    border-radius: 5px;  /* Borde redondeado */
+    cursor: pointer;  /* Cursor apuntador al pasar el ratón */
+    transition: background-color 0.3s, color 0.3s;
+    margin-left: auto;  /* Posiciona a la derecha */
+  }
+  
+  .clear-cart-button:hover {
+    background-color: #c0392b;
+  }
+  

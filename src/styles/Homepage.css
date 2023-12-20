@@ -1,0 +1,87 @@
+#MuiAppBar-root{
+  background-color: #2b2b2b !important;
+  color: #fff !important;
+}
+.homepage-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.cart-link,
+.drawer-link {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 25px;
+  padding: .3rem
+}
+
+.cart-link:hover {
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.cart-link i {
+
+  font-size: 1.2em;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.cart-link:hover i {
+  color: #2b2b2b;
+  
+}
+
+.cart-text {
+  margin-right: 5px;
+  color: #a7a9aa;
+}
+
+.cart-count {
+  background-color: #ff3300;
+  color: white;
+  border-radius: 50%;
+  padding: 0.0em 0.2em;
+  position: absolute;
+  top: 10px;
+  right: 55px;
+}
+.fa-arrow-right-from-bracket{
+  font-size: 1.2em;
+  cursor: pointer;
+}
+.fa-arrow-right-from-bracket:hover{
+  color: #b3a5a5;
+}
+.drawer {
+  width: 250px;
+}
+
+.drawer a {
+  color: #000;
+  text-decoration: none;
+}
+.product-card-ul-home {
+  justify-content: center;
+  display: flex;
+  width: 97%;
+  flex-direction: column;
+  padding: .3rem;
+  
+}
+@media only screen and (min-width: 1024px) {
+ 
+  .cart-count {
+    right: 60px;
+    padding: 0.0em 0.3em;
+  }
+ 
+  .product-card-ul-home {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    padding: .3rem;
+    flex-wrap: wrap; /* También se debe agregar en el media query para escritorio */
+  }
+}

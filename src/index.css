@@ -1,0 +1,28 @@
+/* tailwind.css */
+@import 'normalize.css';
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import '@fortawesome/fontawesome-free/css/all.css';
+
+/* Gama de colores fija */
+@layer utilities {
+  .text-primary { color: #2d4059; }
+  .bg-primary { background-color: #2d4059; }
+  .border-primary { border-color: #2d4059; }
+
+  .text-secondary { color: #ea5455; }
+  .bg-secondary { background-color: #ea5455; }
+  .border-secondary { border-color: #ea5455; }
+
+  .text-tertiary { color: #f07b3f; }
+  .bg-tertiary { background-color: #f07b3f; }
+  .border-tertiary { border-color: #f07b3f; }
+}
+    
+body {
+    background: #f8eded;
+    color: #2d4059;
+    scroll-behavior: auto;
+    height: 100%;
+}

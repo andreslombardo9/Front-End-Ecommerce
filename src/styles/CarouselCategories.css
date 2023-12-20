@@ -1,0 +1,53 @@
+/* Agrega los estilos a tu gusto */
+h2 {
+    color: #dad8d8;
+    text-align: center;
+  }
+  .container-category-all{
+    width: 100%;
+  }
+  .categories-container {
+    display: flex;
+    justify-content: center;
+  }
+  .products-categories-container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  .products-categories-map{
+    width: 95%;
+    margin: 0 auto;
+  }
+  .category-button {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+    padding: 10px;
+    background-color: #3242ab;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 6rem; /* Ajusta el ancho según tus necesidades */
+    height: 5rem; /* Ajusta la altura según tus necesidades */
+  }
+  .category-button.selected {
+    background-color: #15257e; /* Cambia el color según tus necesidades para el botón seleccionado */
+    color: #ffffff; /* Cambia el color del texto para el botón seleccionado si es necesario */
+  }
+  
+  .selected-category-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .selected-category-text {
+    font-size: 18px;
+    color: #4caf50;
+  }
+  
